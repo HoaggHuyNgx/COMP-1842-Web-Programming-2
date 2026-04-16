@@ -14,7 +14,6 @@ const VocabSchema = new Schema(
     },
     vietnamese: {
       type: String,
-      required: 'Vietnamese word cannot be blank'
     }
   },
   { collection: 'vocab' }
